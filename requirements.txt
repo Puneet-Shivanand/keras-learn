@@ -2,12 +2,12 @@
 scipy==0.18.1
 numpy==1.11.3
 matplotlib==1.5.3
-pandas==0.18.1
-statsmodels==0.6.1
-sklearn==0.18.1
+pandas
+statsmodels
+sklearn
 
 #deep learning dependencies
 
-theano==0.8.2.dev-901275534cbfe3fbbe290ce85d1abf8bb9a5b203
+theano
 tensorflow==0.12.1
 keras==1.2.1

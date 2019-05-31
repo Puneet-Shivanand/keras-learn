@@ -18,9 +18,10 @@ model.add(Dense(1, init='uniform', activation='sigmoid'))
 # Compile model
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 # Fit the model
-model.fit(X, Y, epochs=150, batch_size=10,  verbose=2)
+model.fit(X, Y, nb_epoch=150, batch_size=10,  verbose=2)
 # calculate predictions
 predictions = model.predict(X)
 # round predictions
 rounded = [round(x[0]) for x in predictions]
 print(rounded)
+numpy.savetxt("predict.csv", rounded, delimiter=",", fmt="%1.1f")

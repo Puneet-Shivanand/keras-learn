@@ -294,7 +294,9 @@ getSize([index, extra]).then(size => {
 ## References
 
 [read1]: https://arxiv.org/pdf/1903.00342.pdf
+[read2]: https://arxiv.org/pdf/1603.06430.pdf
 
-* [read1]
+* [read1] : Deep learning in bioinformatics: introduction,application, and perspective in big data era
+* [read2] : Deep Learning in Bioinformatics 
 
 

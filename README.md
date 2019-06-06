@@ -291,3 +291,4 @@ getSize([index, extra]).then(size => {
   }
 })
 ```
+[read1]: https://arxiv.org/pdf/1903.00342.pdf

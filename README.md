@@ -293,8 +293,8 @@ getSize([index, extra]).then(size => {
 ```
 ## References
 
-```
 [read1]: https://arxiv.org/pdf/1903.00342.pdf
 
-[read1]
-```
+* [read1]
+
+

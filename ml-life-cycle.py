@@ -17,13 +17,13 @@ model.add(Dense(1, activation='sigmoid'))
 # 2. compile the network
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 # 3. fit the network
-model.fit(X, Y, nb_epoch=150, batch_size=10)
+model.fit(X, Y, nb_epoch=5, batch_size=10)
 # 4. evaluate the network
 loss, accuracy = model.evaluate(X, Y)
 print("\n%s: %.2f%%" % (model.metrics_names[1], accuracy*100))
-print("\nLoss:%.2f, Accuracy:%.2f" % loss, accuracy*100)
+print("\nLoss:%.2f, Accuracy:%.2f" % (loss, accuracy*100))
 # 5. make predictions
-probabilities = models.predict(X)
-predictions = [float(round(x)) for x in probabilities]
+probabilities = model.predict(X)
+predictions = [numpy.round(x) for x in probabilities]
 accuracy = numpy.mean(predictions == Y)
-print("Prediction Accuracy: %.2f%%" % (accuracy*100))
+print("\nPrediction Accuracy: %.2f%%" % (accuracy*100))

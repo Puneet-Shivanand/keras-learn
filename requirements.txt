@@ -9,5 +9,5 @@ sklearn
 #deep learning dependencies
 
 theano
-tensorflow==0.12.1
+tensorflow==1.15.0
 keras==1.2.1

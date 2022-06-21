@@ -1,6 +1,6 @@
 #DA dependencies
 scipy==0.18.1
-numpy==1.11.3
+numpy==1.22.0
 matplotlib==1.5.3
 pandas
 statsmodels
